@@ -1,0 +1,12 @@
+function test_divisors(low, high) {
+//write code here
+// use console.log to display the output
+for (let i = low; i <= high; i++) {
+    if (i % 3 == 0) {
+      console.log(i +" ");
+      console.log("div3 ");
+    } else {
+      console.log(i +" ");
+    }
+  }
+}
